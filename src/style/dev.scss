@@ -1,0 +1,15 @@
+body {
+	.test-font {
+		color: steelblue;
+		font-family: test-font, consolas;
+	}
+	pre,
+	code {
+		background-color: rgba(100, 100, 100, 0.35);
+		font-family: consolas;
+	}
+	pre {
+		padding: .25em .32em;
+		tab-size: 3;
+	}
+}

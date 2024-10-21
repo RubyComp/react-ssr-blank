@@ -1,4 +1,4 @@
-import './globals.scss'
+import '@/style/style.scss'
 
 export const metadata = {
 	title: 'Create Next App',
@@ -7,9 +7,8 @@ export const metadata = {
 
 const RootLayout = ({ children }) => {
 	return (
-		<html lang="en">
+		<html lang="ru">
 			<body>
-				<code>RootLayout</code>
 				{children}
 			</body>
 		</html>

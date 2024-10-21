@@ -1,0 +1,20 @@
+.Button {
+	background-color: var(--accent-back);
+	display: block;
+	letter-spacing: 0.02em;
+	padding: .75em 1em .74em;
+	transition: .1s;
+
+	&:disabled {
+		background-color: var(--back-soft-color);
+	}
+
+	&:not(:disabled) {
+		cursor: pointer;
+
+		&:hover {
+			color: var(--neutral-color-dark);
+			background-color: var(--accent-color-soft);
+		}
+	}
+}

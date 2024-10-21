@@ -1,0 +1,67 @@
+:root {
+	--back-color: #0f0f0f;
+	--back-soft-color: #454245;
+
+	--light-color: silver;
+	--light-color-soft: lightgrey;
+
+	--accent-color: cyan;
+	--accent-back: darkcyan;
+	--accent-color-soft: rgb(151, 240, 240);
+
+	--neutral-color: rgba(255, 255, 255, 0.9);
+	--neutral-color-grey: #63636b;
+	--neutral-color-dark: #282a2b;
+
+	--positive-color: #10ad29;
+	--warn-color: #ff8718;
+	--danger-color: #c53c32;
+
+	--text-color: var(--neutral-color);
+
+	// --silver-gradient: linear-gradient(140deg, #323232 0%, #F3F3F3 100%);
+	--accent-font: 'Montserrat', 'roboto', 'arial';
+	--main-font: 'Inter', 'roboto', 'arial';
+
+	--header-height: 140px;
+	--footer-margin: 60px;
+
+	@include md {
+		--header-height: 120px;
+	}
+	@include sm {
+		--header-height: 84px;
+	}
+	@include xs {
+		--header-height: 74px;
+	}
+	@include xxs {
+		--header-height: 62px;
+	}
+
+	// @include sm {
+	// 	--header-height: 60px;
+	// }
+	// @include xs {
+	// 	--header-height: 60px;
+	// }
+}
+
+*,
+*::before,
+*::after,
+*::placeholder {
+	background: none;
+	border: initial;
+	box-sizing: border-box;
+	color: inherit;
+	font-size: inherit;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+::selection {
+	background-color: #1f428d;
+}
