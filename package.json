@@ -1,5 +1,5 @@
 {
-  "name": "ssr-test",
+  "name": "react-ssr-blank",
   "version": "0.1.0",
   "private": true,
   "scripts": {
