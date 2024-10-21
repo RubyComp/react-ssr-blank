@@ -25,7 +25,14 @@ npm run build; lhci autorun
 ```
 You will see new results html-files in `.lighthouseci` folder.
 
-Check `lighthouserc.js` file for more info anout Lighthouse CI (LHCI).
+Check `lighthouserc.js` file for more info about Lighthouse CI (LHCI).
+
+## Storybook
+```bash
+npm run storybook
+```
+
+Check `.storybook` folder for more info.
 
 ## Learn More
 
