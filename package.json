@@ -1,27 +1,40 @@
 {
-	"name": "ssr-test",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"test": "jest --watch"
-	},
-	"dependencies": {
-		"next": "14.2.15",
-		"react": "^18",
-		"react-dom": "^18",
-		"sass": "^1.80.3"
-	},
-	"devDependencies": {
-		"@testing-library/jest-dom": "^6.6.2",
-		"@testing-library/react": "^16.0.1",
-		"babel-jest": "^29.7.0",
-		"eslint": "^8",
-		"eslint-config-next": "14.2.15",
-		"jest": "^29.7.0",
-		"jest-environment-jsdom": "^29.7.0"
-	}
+  "name": "ssr-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.80.3"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.6",
+    "@storybook/addon-interactions": "^8.3.6",
+    "@storybook/addon-links": "^8.3.6",
+    "@storybook/addon-onboarding": "^8.3.6",
+    "@storybook/blocks": "^8.3.6",
+    "@storybook/nextjs": "^8.3.6",
+    "@storybook/react": "^8.3.6",
+    "@storybook/test": "^8.3.6",
+    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/react": "^16.0.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "eslint-plugin-storybook": "^0.9.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "storybook": "^8.3.6"
+  }
 }
